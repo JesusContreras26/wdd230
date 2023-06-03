@@ -27,6 +27,7 @@ body {
   .right-sidebar {
     background: yellow;
     grid-column: 2 / 3;
+    padding: 1rem;
   }
   
   footer {
@@ -36,7 +37,4 @@ body {
     grid-column: 1 / 3;
   }
   
-  .right-sidebar {
-    padding: 1rem;
-  }
   
