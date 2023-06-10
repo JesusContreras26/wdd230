@@ -3,6 +3,5 @@ dayName = todaysDate.getDate();
 monthName = todaysDate.getMonth() + 1;
 year = todaysDate.getFullYear();
 time = todaysDate.toLocaleTimeString('it-IT');
-console.log(dayName)
 document.querySelector('#year').textContent = year;
 document.querySelector('#lastModified').textContent = `Last Modification: ${dayName}/${monthName}/${year} ${time}`;
