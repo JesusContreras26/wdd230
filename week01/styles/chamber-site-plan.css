@@ -28,7 +28,7 @@ h1{
 h2{
     padding: 0.5rem;
     font-family: 'Merriweather Sans', sans-serif;
-    color: #6898F0;
+    color: #0D6098;
 }
 
 #heading h2{
@@ -42,16 +42,17 @@ header{
 h3{
     padding: 1rem;
     font-family: 'Merriweather Sans', sans-serif;
-    color: #6898F0;
+    color: #0D6098;
 }
 
 h4{
     padding: 1.5rem;
-    color: #6898F0;
+    color: #0D6098;
 }
 
 ul{
     padding: 0.5rem;
+    list-style-type: none;
 }
 
 li{
@@ -59,8 +60,8 @@ li{
 }
 
 #overview{
-    border-top: 3px solid #0D6098;
-    border-bottom: 3px solid #0D6098;
+    border-top: 4px solid #6898F0;
+    border-bottom: 4px solid #6898F0;
     padding-bottom: 1rem;
 }
 
@@ -80,16 +81,18 @@ li{
 }
 
 #scenarios{
-    border-bottom: 3px solid #0D6098;
+    border-bottom: 4px solid #6898F0;
 }
 
-#colors-section{
-    border-bottom: 3px solid #0D6098;
+#colors-fonts-section{
+    border-bottom: 4px solid #6898F0;
 }
 
 #palette{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #primary{
@@ -123,4 +126,24 @@ li{
 #heading-accent{
     grid-column: 3/4;
     grid-row: 1/2;
+}
+
+#normal-paragraph{
+    padding: 1rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+#colored-paragraph{
+    padding: 1rem;
+    background-color: #072E74;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.wireframes{
+    width: 60%;
+    margin-bottom: 2rem;
 }
