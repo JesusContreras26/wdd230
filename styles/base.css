@@ -8,7 +8,7 @@ body{
     font-family: 'Source Sans 3', serif;
 }
 
-header, main, footer, #menu{
+header, main, footer, .menu{
     max-width: 650px;
     margin: 0 auto;
 }
@@ -33,12 +33,13 @@ h1{
     padding: 1rem;
     font-family: 'Libre Baskerville', serif;
     color: white;
-    font-size: 2.2em;
+    font-size: 1em;
 }
 
-#menu{
+.menu{
     background-color: #754D4D;
 }
+
 
 h2{
     text-align: center;
@@ -47,8 +48,9 @@ h2{
 }
 
 
-#menu a{
-    display: block;
+.menu a{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     padding: 0.5rem;
     color: white;
@@ -56,8 +58,13 @@ h2{
     text-decoration: none;
 }
 
-#menu a:hover{
+
+.menu a:hover{
     background-color: #F3A001;
+}
+
+.menu li{
+    display: none;
 }
 
 .card{
@@ -81,8 +88,11 @@ footer{
 }
 
 ul{
-    padding: 2rem;
     list-style-type: none;
+}
+
+.card ul{
+    padding: 2rem;
 }
 
 .card nav{
@@ -97,11 +107,30 @@ ul{
     color: white;
 }
 
-li{
+.card li{
     padding: 0.5%;
 }
 
 #lastModified{
     font-size: 1rem;
     padding-top: 1rem;
+}
+
+#displayMenu{
+    position: absolute;
+    top: 2.5rem;
+    left: 1rem;
+    padding: 0.25rem;
+}
+
+#displayMenu::before{
+    content: "☰";
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
 }
