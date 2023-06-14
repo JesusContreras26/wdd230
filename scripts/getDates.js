@@ -25,7 +25,7 @@ darkMode.addEventListener('click', ()=>{
         main.style.background = '#000';
         main.style.color = '#fff';
         cards.forEach(element => {
-            element.style.background = '#310202';
+            element.style.background = '#460101';
             element.firstElementChild.style.background = '#072E74';
             element.firstElementChild.style.color = '#fff';
         });
@@ -38,7 +38,7 @@ darkMode.addEventListener('click', ()=>{
         main.style.color = '#000';
         cards.forEach(element => {
             element.style.background = '#fff';
-            element.firstElementChild.style.background = '#310202';
+            element.firstElementChild.style.background = '#460101';
             element.firstElementChild.style.color = '#fff';
         });
         links.forEach(element =>{
