@@ -83,7 +83,6 @@ footer{
     text-align: center;
     color: white;
     font-family: 'Libre Baskerville', serif;
-    margin-top: 3.2%;
     margin-bottom: 0.5rem;
 }
 
@@ -133,4 +132,14 @@ ul{
 }
 .open li a {
 	display: block;
+}
+
+main{
+    padding-bottom: 3.3%;
+}
+
+#mode{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }

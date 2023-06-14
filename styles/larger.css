@@ -67,6 +67,9 @@
         font-size: 5.2rem;
     }
 
-    
+    #mode{
+        top: 3%;
+        right: 8%;
+    }
 
 }
