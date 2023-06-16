@@ -21,7 +21,7 @@ const cards = document.querySelectorAll('.card');
 const links = document.querySelectorAll('.link');
 
 darkMode.addEventListener('click', ()=>{
-    if(darkMode.textContent.includes('☑️')){
+    if(darkMode.textContent.includes('✅')){
         main.style.background = '#000';
         main.style.color = '#fff';
         cards.forEach(element => {
@@ -44,6 +44,6 @@ darkMode.addEventListener('click', ()=>{
         links.forEach(element =>{
             element.style.color = '#0000EE';            
         })
-        darkMode.textContent = '☑️';
+        darkMode.textContent = '✅';
     }
 })

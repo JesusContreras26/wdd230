@@ -142,6 +142,7 @@ main{
     position: absolute;
     top: 1rem;
     right: 1rem;
+    background-color: rgb(163, 154, 154);
 }
 
 #displayMenu.open::before{
