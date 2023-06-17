@@ -1,3 +1,12 @@
+todaysDate = new Date(document.lastModified);
+dayName = todaysDate.getDate();
+monthName = todaysDate.getMonth() + 1;
+year = todaysDate.getFullYear();
+time = todaysDate.toLocaleTimeString('it-IT');
+document.querySelector('#year').textContent = `${year} Barinas Chamber`;
+document.querySelector('#lastModified').textContent = `Last Modification: ${dayName}/${monthName}/${year} ${time}`;
+
+
 const hamButton = document.querySelector('#displayMenu');
 const navigation = document.querySelector('.menu');
 
@@ -30,6 +39,10 @@ let control = true;
 
 spotlightTitles[0].addEventListener('click', ()=>{
 	if(control === true){
+		document.querySelector('#spotlightThree').classList.remove('spotlightP')
+		document.querySelector('#spotlightThree').textContent = '';
+		document.querySelector('#spotlightTwo').classList.remove('spotlightP')
+		document.querySelector('#spotlightTwo').textContent = '';
 		document.querySelector('#spotlightOne').classList.toggle('spotlightP');
 		document.querySelector('#spotlightOne').innerHTML = `<h4>The best products for your constructions</h4>
 															 <a href="">hello@saforti.com</a>
@@ -46,6 +59,10 @@ spotlightTitles[0].addEventListener('click', ()=>{
 
 spotlightTitles[1].addEventListener('click', ()=>{
 	if(control === true){
+		document.querySelector('#spotlightOne').classList.remove('spotlightP')
+		document.querySelector('#spotlightOne').textContent = '';
+		document.querySelector('#spotlightThree').classList.remove('spotlightP')
+		document.querySelector('#spotlightThree').innerHTML = ''
 		document.querySelector('#spotlightTwo').classList.toggle('spotlightP');
 		document.querySelector('#spotlightTwo').innerHTML =`<h4>The best products for your daily diet</h4>
 															<a href="">contact@garzon.com</a>
@@ -62,6 +79,10 @@ spotlightTitles[1].addEventListener('click', ()=>{
 
 spotlightTitles[2].addEventListener('click', ()=>{
 	if(control === true){
+		document.querySelector('#spotlightOne').classList.remove('spotlightP')
+		document.querySelector('#spotlightOne').textContent = '';
+		document.querySelector('#spotlightTwo').classList.remove('spotlightP')
+		document.querySelector('#spotlightTwo').textContent = '';
 		document.querySelector('#spotlightThree').classList.toggle('spotlightP');
 		document.querySelector('#spotlightThree').innerHTML =`<h4>You will have an unforgettable night</h4>
 															<a href="">build@eurobuilding.com</a>
@@ -75,7 +96,3 @@ spotlightTitles[2].addEventListener('click', ()=>{
 	}
 
 })
-
-
-
-

@@ -102,7 +102,6 @@ header{
 
 #hero{
     display: grid;
-
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
 }
@@ -137,22 +136,21 @@ header{
 }
 
 #events h3{
-    border-bottom: 1px solid rgb(54, 53, 53);
-    font-size: 1rem;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    font-size: 1.5rem;
 }
 
 #events h4{
     text-align: left;
     padding-top: 0.5rem;
-    font-size: 0.80rem;
+    font-size: 1rem;
 }
 
 #events p{
     padding: 0.5rem;
-    border-bottom: 1px solid rgb(54, 53, 53);
+    border-bottom: 1px solid rgb(163, 163, 163);
     font-size: 1rem;
     font-family: 'Merriweather Sans', serif;
-    font-size: 0.80rem;
 }
 
 #weather{
@@ -163,16 +161,17 @@ header{
 }
 
 #weather h3{
-    border-bottom: 1px solid rgb(54, 53, 53);
-    font-size: 1rem;
+    border-bottom: 1px solid rgb(163, 163, 163);
+    font-size: 1.5rem;
 }
 
 #weather h4{
-    font-size: 0.80rem;
+    font-size: 1rem;
     padding: 0.5rem;
 }
 
 #spotlights{
+    display: grid;
     background-color: #d9dbe0;
     padding: 0.5rem;
     margin: 0 auto;
@@ -188,12 +187,14 @@ header{
     width: 50%;
     margin: 3% auto;
     background-color: #00154b;
+    border-radius: 10px;
 }
 
 .spotlightP{
     background-color: #3f4652;
     color: white;
     font-size: 0.8rem;
+    border-radius: 10px;
 }
 
 .spotlightP a{
@@ -207,6 +208,7 @@ header{
 footer{
     background-color: #072E74;
     color: white;
+    height: 20%;
 }
 
 #logoFooter{
@@ -233,4 +235,9 @@ footer p{
     margin: 1rem auto;
     padding-bottom: 1rem;
     color: #f3ef04;
+    font-size: 0.9rem;
+}
+
+#defaultP{
+    display: none;
 }
