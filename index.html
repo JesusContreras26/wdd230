@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Source+Sans+3&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <meta name="author" content="Jesus Contreras">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -22,7 +23,7 @@
 </head>
 <body>
     <header>
-        <img src="images/me.jpeg" alt="photo of myself">
+        <img src="images/me.webp" alt="photo of myself">
         <h1>Jesus G. Contreras</h1>
         <div id="mode">
             ✅
@@ -40,8 +41,15 @@
     </nav>
 
     <main>
+        <div class="templeLabel">Winnipeg Manitoba <br>Temple</div>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-small.webp" media="max-width: 650px">
+                <img src="images/hero-larger.webp" alt="hero larger img" width="960" height="600">
+            </picture>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
-        <section class="card">
+        <section class="card" id="activities">
             <h3>Learning Activities</h3>
             <ul>
                 <li>Week 01:
@@ -68,11 +76,12 @@
             <h3>Information</h3>
             <nav id="items">
                 <nav>Place</nav>
-                <nav>Weather</nav>
+                <p>Visit Count: <span class="visits"></span></p>
                 <nav>Page Visits: </nav>
             </nav>
 
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15795.413146500343!2d-70.8238758!3d8.2175058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sve!4v1687462971823!5m2!1ses-419!2sve" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
 
     <footer>

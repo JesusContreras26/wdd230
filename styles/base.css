@@ -148,3 +148,36 @@ main{
 #displayMenu.open::before{
     content: "✖";
 }
+
+.hero img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.templeLabel{
+    position: absolute;
+    top: 8rem;
+    left: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgba(88, 112, 168, 0.5);
+    border: 1px solid rgb(88, 87, 87, 0.8);
+    box-shadow: 10px 15px 48px 0px rgba(4,46,140,0.75);
+    -webkit-box-shadow: 10px 15px 48px 0px rgba(4,46,140,0.75);
+    -moz-box-shadow: 10px 15px 48px 0px rgba(4,46,140,0.75);
+    font-family: 'Pacifico', cursive;
+    
+}
+
+iframe{
+    display: block;
+    width: 90%;
+    height: 25rem;
+    margin: 0 auto;
+
+}
+
+#items {
+    font-weight: bolder;
+}

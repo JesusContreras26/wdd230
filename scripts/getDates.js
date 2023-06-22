@@ -47,3 +47,18 @@ darkMode.addEventListener('click', ()=>{
         darkMode.textContent = '✅';
     }
 })
+
+const visitsDisplay = document.querySelector('.visits');
+
+let numVisits = Number(localStorage.getItem('numVisits-ls')) || 0;
+
+if(numVisits != 0){
+    visitsDisplay.textContent = numVisits;
+
+}else{
+    visitsDisplay.textContent = 'This is your first Visit 🥳 🥳 , Great!';
+}
+
+numVisits++;
+
+localStorage.setItem('numVisits-ls', numVisits);
