@@ -153,5 +153,16 @@
         height: 10rem;
     }
 
+    #content{
+        display: grid;
+        grid-template-columns: 300px 1fr;
+    }
 
+    .sidebar{
+        grid-column: 1/2;
+    }
+
+    .interest-sites{
+        grid-column: 2/3;
+    }
 }

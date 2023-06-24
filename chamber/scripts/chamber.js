@@ -96,3 +96,5 @@ spotlightTitles[2].addEventListener('click', ()=>{
 	}
 
 })
+
+
