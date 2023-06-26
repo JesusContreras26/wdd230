@@ -165,4 +165,19 @@
     .interest-sites{
         grid-column: 2/3;
     }
+
+    .interest-sites h1{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .sites{
+        width: 80%;
+    }
+
+
+    .sites p{
+        width: 60%;
+        line-height: 2rem;
+    }
 }
