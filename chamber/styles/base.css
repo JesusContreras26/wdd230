@@ -188,6 +188,7 @@ header{
     margin: 3% auto;
     background-color: #00154b;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .spotlightP{
