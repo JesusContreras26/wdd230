@@ -38,7 +38,7 @@
 
     <main>
         <form method="get" action="record.html">
-            <legend>Information</legend>
+            <div id="legend">Information</div>
             <div id="formMessage"></div>
             <label class="top">Username* <input type="text" id="username" name="username" required></label>
             <label class="top">Password* <input type="password" id="pwd" name="pwd" required pattern="[A-Za-z0-9]{8,}" placeholder="Alpha numeric only"></label>
@@ -46,7 +46,8 @@
             <label class="top">Email* <input type="email" id="mail" name="mail" required pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$" placeholder="Please enter a valid email address"></label>
             
             <label class="top">Page Rating 
-                <div id="rangevalue">0</div>
+                <br>
+                <span id="rangevalue">0</span>
                 <input type="range" name="r" id="r" min="0" max="10" value="0" step="1" list="rangevalues"></label>
             <datalist id="rangevalues">
                 <option value="0">0</option>

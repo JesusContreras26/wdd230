@@ -59,9 +59,10 @@ const range = document.querySelector('#r');
 confirmPass.addEventListener("focusout", ()=>{
     if(password.value !== confirmPass.value){
         message.textContent = "❗Passwords DO NOT MATCH!";
-        message.style.visibility = "show";
+        message.style.display = "block";
         password.style.backgroundColor = "#d4d4d4"
         password.value = "";
+        confirmPass.value= "";
         password.focus();
     }else{
         message.style.display= "none";

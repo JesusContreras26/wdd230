@@ -61,7 +61,7 @@ form label.top input:required:valid{
     border-left: #072E74 solid 6px;
 }
 
-form legend{
+#legend{
     margin-bottom: var(--margin-value);
     font-size: 1.2rem;
     font-weight: bolder;
@@ -86,7 +86,7 @@ form label.top #r{
 }
 
 #formMessage{
-    visibility: none;
+    display: none;
     margin-bottom: 1rem;
     font-size: 1.3rem;
     font-weight: bold;
