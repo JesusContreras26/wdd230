@@ -60,11 +60,12 @@ confirmPass.addEventListener("focusout", ()=>{
     if(password.value !== confirmPass.value){
         message.textContent = "❗Passwords DO NOT MATCH!";
         message.style.visibility = "show";
-        confirmPass.style.backgroundColor = "#d4d4d4"
-        confirmPass.value = "";
+        password.style.backgroundColor = "#d4d4d4"
+        password.value = "";
+        password.focus();
     }else{
         message.style.display= "none";
-        confirmPass.style.background = "#fff"
+        password.style.background = "#fff"
     }
 });
 
