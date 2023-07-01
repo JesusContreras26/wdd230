@@ -246,5 +246,21 @@
         height: 7rem;
     } 
 
+    /*************ThankYouMessagePage*************/
+    #thanksMess{
+        margin-top: 8rem;
+    }
+
+
+
+    #thanksMess h1{
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    #thanksMess p{
+        font-size: 1.3rem;
+        margin-bottom: 15%;
+    }
 
 }

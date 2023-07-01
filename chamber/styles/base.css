@@ -503,3 +503,20 @@ form label.top input:required{
 form label.top input:required:valid{
     border-left: #072E74 solid 6px;
 }
+
+/***************ThankYouMessagePage******************/
+#thanksMess{
+    margin: 4rem auto;
+    text-align: center;
+}
+
+#thanksMess h1{
+    width: 100%;
+    color:#072E74;
+    margin: 2rem auto;
+    font-size: 2rem;
+}
+
+#thanksMess p{
+    margin: 1rem 1rem 5rem 1rem;
+}
