@@ -1,0 +1,38 @@
+{
+    "familyName": "Contreras",
+    "dateJoin": "May 20 2023",
+    "numbMembers": 5,
+    "visitedBishopric": false,
+    "members": [
+        {
+            "name": "Jesus Contreras",
+            "gender": "male",
+            "birthDate": "08/08/1997"
+        },
+
+        {
+            "name": "Wilfrido Contreras",
+            "gender": "male",
+            "birthDate": "12/10/1963"
+        },
+
+        {
+            "name": "Gisela Carrero",
+            "gender": "female",
+            "birthDate": "08/05/1966"
+        },
+
+        {
+            "name": "Sara Contreras",
+            "gender": "female",
+            "birthDate": "08/08/1986"
+        },
+
+        {
+            "name": "Daniela Contreras",
+            "gender": "female",
+            "birthDate": "23/01/1993"
+        }
+
+    ]
+}
