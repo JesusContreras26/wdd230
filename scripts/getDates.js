@@ -62,3 +62,35 @@ if(numVisits != 0){
 numVisits++;
 
 localStorage.setItem('numVisits-ls', numVisits);
+
+/////////////////////Weather Part/////////////////////////
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=8.62&lon=-70.23&units=imperial&appid=30368f78cca2b27d0603441e7cc15f73';
+const currentTemp = document.querySelector('#current-temp');
+const weatherIcon = document.querySelector('#weather-icon');
+const caption = document.querySelector('figcaption');
+
+async function apiFetch(){
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            displayWeather(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function displayWeather(data){
+    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    const imgSrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`
+    let desc = data.weather[0].description;
+    weatherIcon.setAttribute('src', imgSrc);
+    weatherIcon.setAttribute('alt', 'weatherIcon');
+    caption.textContent = `${desc}`;
+ 
+}
+
+apiFetch();

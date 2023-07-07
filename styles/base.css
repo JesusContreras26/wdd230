@@ -21,7 +21,7 @@ header{
     margin-top: 0.5rem;
 }
 
-img{
+#I{
     width: 15%;
     margin: 1rem;
     height: auto;
@@ -153,6 +153,7 @@ main{
     width: 100%;
     height: auto;
     margin: 0 auto;
+    box-shadow: 0px 4px 20px 7px rgba(0, 0, 0, 0.2), 0 6px 20px 7px rgba(0, 0, 0, 0.19);
 }
 
 .templeLabel{
@@ -180,4 +181,14 @@ iframe{
 
 #items {
     font-weight: bolder;
+}
+
+#items figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#items figure, #items p{
+    padding-bottom: 1.5rem;
 }

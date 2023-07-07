@@ -96,4 +96,7 @@
         width: 20rem;
     }
 
+    #items figure, #items p{
+        padding: 1.5rem;
+    }
 }

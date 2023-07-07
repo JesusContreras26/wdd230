@@ -23,7 +23,7 @@
 </head>
 <body>
     <header>
-        <img src="images/me.webp" alt="photo of myself">
+        <img id="I" src="images/me.webp" alt="photo of myself">
         <h1>Jesus G. Contreras</h1>
         <div id="mode">
             ✅
@@ -69,8 +69,8 @@
                 </li>
                 <li>Week 04: <a class="link" href="https://codepen.io/Jesus-Contreras/pen/ExOWPWK">Pseudo-classes</a> | 
                              <a class="link" href="week04/images/week4-combinators.JPG">Combinators</a> | 
-                             <a class="link" href="https://jesuscontreras26.github.io/wdd230/week04/tablebuild.html"></a> | 
-                             <a class="link" href="https://jesuscontreras26.github.io/wdd230/week04/form-start/index.html"></a>
+                             <a class="link" href="https://jesuscontreras26.github.io/wdd230/week04/tablebuild.html">Table</a> | 
+                             <a class="link" href="https://jesuscontreras26.github.io/wdd230/week04/form-start/index.html">Form</a>
                 </li>
                 <li>Week 05: <a href="https://codepen.io/Jesus-Contreras/pen/OJajoKO">CSS Pseudo-elements</a> |
                              <a href="https://jesuscontreras26.github.io/wdd230/week05/new-ward-members.json">JSON</a> |
@@ -84,9 +84,12 @@
         <section class="card" id="information">
             <h3>Information</h3>
             <div id="items">
-                <div>Place</div>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <div id="current-temp"></div>
+                    <figcaption></figcaption>
+                </figure>
                 <p>Visit Count: <span class="visits"></span></p>
-                <div>Page Visits: </div>
             </div>
 
         </section>
@@ -98,5 +101,6 @@
         <p id="lastModified">Last Modification: </p>
     </footer>
     <script src="scripts/getDates.js"></script>
+    <script src="scripts/links.js"></script>
 </body>
 </html>
