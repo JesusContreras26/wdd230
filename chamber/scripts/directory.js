@@ -51,6 +51,7 @@ function displayCards(data){
         imgMember.setAttribute('alt', member.name);
         imgMember.setAttribute('loading', 'lazy');
         imgMember.setAttribute('width', '160');
+        imgMember.setAttribute('height', '160');
         addressMember.innerHTML = `${member.address}`;
         phoneMember.innerHTML = `${member.phone}`;
         urlMember.innerHTML = `${member.url}`;

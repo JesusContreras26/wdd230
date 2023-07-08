@@ -71,6 +71,7 @@ ul{
 
 .logoMedia{
     width: 1.5rem;
+    height: auto;
 }
 a{
     text-decoration: none;
@@ -554,6 +555,7 @@ form label.top input:required:valid{
 .grid section img{
     width: 50%;
     margin: 0 auto;
+    height: auto;
 }
 
 .grid section h4{
