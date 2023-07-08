@@ -1,0 +1,89 @@
+{
+    "directory": [
+        {
+            "name": "Alimentos Santa Mónica c.a.",
+            "address": "Av. Cruz Paredes &, Av. Libertad, Barinas 5201, Barinas",
+            "phone": "+584125657344",
+            "image": "images/santa-monica.jpg"
+        },
+
+        {
+            "name": "El Castillo Tu Centro Textil",
+            "address": "Barinas 5201, Barinas",
+            "phone": "+582735325796",
+            "image": "images/castillo.jpg"
+        },
+
+        {
+            "name": "C.C. Cima",
+            "address": "Centro Comercial Cima, Barinas Nivel 2 Local F67, Barinas",
+            "phone": "+582734006541",
+            "image": "images/cima.jpg"
+        },
+
+        {
+            "name": "Cinex",
+            "address": "C.C Cima",
+            "phone": "+584245737205",
+            "image": "images/cinex.jpg"
+        },
+
+        {
+            "name": "C.C. El Dorado",
+            "address": "JP7X+Q3C, Barinas 5201, Barinas",
+            "phone": "+584146903708",
+            "image": "images/eldorado.jpg"
+        },
+
+        {
+            "name": "IVOO",
+            "address": "JP8W+7XV, Av. San Silvestre, Barinas 5201, Barinas",
+            "phone": "+584244051530",
+            "image": "images/ivoo.jpg"
+        },
+
+        {
+            "name": "King Pastel",
+            "address": "Barinas 5201, Barinas",
+            "phone": "+584265724251",
+            "image": "images/king-pastel.jpg"
+        },
+
+        {
+            "name": "Mango Bajito",
+            "address": "Esquina Av. Cruz Paredes c/c Av. 23 de Enero, Av. Cruz Paredes, Barinas 5201, Barinas",
+            "phone": "+582739280836",
+            "image": "images/mango-bajito.jpg"
+        },
+
+        {
+            "name": "McDonald's",
+            "address": "Av. Los Andes, Barinas 5201, Barinas",
+            "phone": "+582739282131",
+            "image": "images/mcdonalds.jpg"
+        },
+
+        {
+            "name": "Multimax",
+            "address": "Barinas 5201, Barinas",
+            "phone": "+584164002891",
+            "image": "images/multimax.jpg"
+        },
+
+        {
+            "name": "Smartfix",
+            "address": "C. Camejo, Barinas 5201, Barinas",
+            "phone": "+584145125436",
+            "image": "images/smartfix.jpg"
+        },
+
+        {
+            "name": "Traki c.a.",
+            "address": "Avenida, Barinas 5201, Barinas",
+            "phone": "+582735417092",
+            "image": "images/traki.jpg"
+        }
+
+
+    ]
+}
