@@ -520,3 +520,62 @@ form label.top input:required:valid{
 #thanksMess p{
     margin: 1rem 1rem 5rem 1rem;
 }
+
+/******************DirectoryPage**********************/
+
+#menuDirectory{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#menuDirectory button{
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+
+.grid{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.grid section{
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #072e74;
+    padding: 1rem;
+    background: #d9dbe0;
+    border-radius: 10px;
+}
+
+.grid section img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.grid section h4{
+    padding: 0.7rem;
+    color: #072E74;
+}
+
+.grid section p{
+    font-family: 'Merriweather Sans', serif;
+    margin: 0.5rem;
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list img{
+    display: none;
+}
+
+.list section{
+    display: flex;
+    flex-direction: column;
+}

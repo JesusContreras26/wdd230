@@ -2,7 +2,7 @@
     "directory": [
         {
             "name": "Alimentos Santa Mónica c.a.",
-            "address": "Av. Cruz Paredes &, Av. Libertad, Barinas 5201, Barinas",
+            "address": "Av. Cruz Paredes &, Av. Libertad",
             "phone": "+584125657344",
             "url": "https://santamonica.com/",
             "image": "images/santa-monica.jpg",
@@ -22,7 +22,7 @@
 
         {
             "name": "C.C. Cima",
-            "address": "Centro Comercial Cima, Barinas Nivel 2 Local F67, Barinas",
+            "address": "Centro Comercial Cima, Barinas Nivel 2",
             "phone": "+582734006541",
             "url": "https://cima.com/",
             "image": "images/cima.jpg",
@@ -52,7 +52,7 @@
 
         {
             "name": "IVOO",
-            "address": "JP8W+7XV, Av. San Silvestre, Barinas 5201, Barinas",
+            "address": "JP8W+7XV, Av. San Silvestre",
             "phone": "+584244051530",
             "url": "https://ivoo.com/",
             "image": "images/ivoo.jpg",
@@ -72,7 +72,7 @@
 
         {
             "name": "Mango Bajito",
-            "address": "Esquina Av. Cruz Paredes c/c Av. 23 de Enero, Av. Cruz Paredes, Barinas 5201, Barinas",
+            "address": "Esquina Av. Cruz Paredes c/c Av. 23 de Enero",
             "phone": "+582739280836",
             "url": "https://mangobajito.com/",
             "image": "images/mango-bajito.jpg",
