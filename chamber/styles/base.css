@@ -578,4 +578,33 @@ form label.top input:required:valid{
 .list section{
     display: flex;
     flex-direction: column;
+    margin-left: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.list section h4{
+    text-align: start;
+}
+
+.list section p{
+    margin: 0.2rem;
+    text-align: start;
+}
+
+.list section:nth-child(odd) {
+    background-color: #072E74;
+    color: #fff;
+}
+
+.list section:nth-child(even) {
+	background-color: #c5c8ce;
+}
+
+.list section:nth-child(odd) a{
+    color: #f3ef04;
+}
+
+.list section:nth-child(even) a{
+    color: #00154b;
 }
