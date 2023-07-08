@@ -4,84 +4,120 @@
             "name": "Alimentos Santa Mónica c.a.",
             "address": "Av. Cruz Paredes &, Av. Libertad, Barinas 5201, Barinas",
             "phone": "+584125657344",
-            "image": "images/santa-monica.jpg"
+            "url": "https://santamonica.com/",
+            "image": "images/santa-monica.jpg",
+            "membership": "Bronze",
+            "join": "1 year"
         },
 
         {
             "name": "El Castillo Tu Centro Textil",
             "address": "Barinas 5201, Barinas",
             "phone": "+582735325796",
-            "image": "images/castillo.jpg"
+            "url": "https://elcastillo.com/",
+            "image": "images/castillo.jpg",
+            "membership": "Golden",
+            "join": "8 years"
         },
 
         {
             "name": "C.C. Cima",
             "address": "Centro Comercial Cima, Barinas Nivel 2 Local F67, Barinas",
             "phone": "+582734006541",
-            "image": "images/cima.jpg"
+            "url": "https://cima.com/",
+            "image": "images/cima.jpg",
+            "membership": "Golden",
+            "join": "3 years"
         },
 
         {
             "name": "Cinex",
             "address": "C.C Cima",
             "phone": "+584245737205",
-            "image": "images/cinex.jpg"
+            "url": "https://cinex.com/",
+            "image": "images/cinex.jpg",
+            "membership": "Silver",
+            "join": "9 months"
         },
 
         {
             "name": "C.C. El Dorado",
             "address": "JP7X+Q3C, Barinas 5201, Barinas",
             "phone": "+584146903708",
-            "image": "images/eldorado.jpg"
+            "url": "https://eldorado.com/",
+            "image": "images/eldorado.jpg",
+            "membership": "Golden",
+            "join": "4 years"
         },
 
         {
             "name": "IVOO",
             "address": "JP8W+7XV, Av. San Silvestre, Barinas 5201, Barinas",
             "phone": "+584244051530",
-            "image": "images/ivoo.jpg"
+            "url": "https://ivoo.com/",
+            "image": "images/ivoo.jpg",
+            "membership": "NP",
+            "join": "3 months"
         },
 
         {
             "name": "King Pastel",
             "address": "Barinas 5201, Barinas",
             "phone": "+584265724251",
-            "image": "images/king-pastel.jpg"
+            "url": "https://kingpastel.com/",
+            "image": "images/king-pastel.jpg",
+            "membership": "Bronze",
+            "join": "5 months"
         },
 
         {
             "name": "Mango Bajito",
             "address": "Esquina Av. Cruz Paredes c/c Av. 23 de Enero, Av. Cruz Paredes, Barinas 5201, Barinas",
             "phone": "+582739280836",
-            "image": "images/mango-bajito.jpg"
+            "url": "https://mangobajito.com/",
+            "image": "images/mango-bajito.jpg",
+            "membership": "Bronze",
+            "join": "2 years"
         },
 
         {
             "name": "McDonald's",
             "address": "Av. Los Andes, Barinas 5201, Barinas",
             "phone": "+582739282131",
-            "image": "images/mcdonalds.jpg"
+            "url": "https://www.mcdonalds.com/",
+            "image": "images/mcdonalds.jpg",
+            "membership": "Golden",
+            "join": "5 years"
         },
 
         {
             "name": "Multimax",
             "address": "Barinas 5201, Barinas",
             "phone": "+584164002891",
-            "image": "images/multimax.jpg"
+            "url": "https://multimax.com/",
+            "image": "images/multimax.jpg",
+            "membership": "Silver",
+            "join": "8 months"
         },
 
         {
             "name": "Smartfix",
             "address": "C. Camejo, Barinas 5201, Barinas",
             "phone": "+584145125436",
-            "image": "images/smartfix.jpg"
+            "url": "https://smartfix.com/",
+            "image": "images/smartfix.jpg",
+            "membership": "Silver",
+            "join": "10 months"
         },
 
         {
             "name": "Traki c.a.",
             "address": "Avenida, Barinas 5201, Barinas",
             "phone": "+582735417092",
-            "image": "images/traki.jpg"
+            "url": "https://traki.com/",
+            "image": "images/traki.jpg",
+            "membership": "Golden",
+            "join": "8 years"
         }
 
 

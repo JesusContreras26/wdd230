@@ -25,7 +25,8 @@ async function fetchLinks(){
         const response = await fetch(linksURL);
         if (response.ok) {
             const data = await response.json();
-            displayLinks(data);
+            console.log(data);
+            displayCards(data);
         } else {
             throw Error(await response.text());
         }
@@ -33,3 +34,11 @@ async function fetchLinks(){
         console.log(error);
     }
 }
+
+function displayCards(data){
+    data.directory.forEach(member => {
+        
+    });
+}
+
+fetchLinks();
