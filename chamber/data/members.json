@@ -8,7 +8,8 @@
             "image": "images/santa-monica.jpg",
             "membership": "Bronze",
             "join": "1 year",
-            "description": "Buy food for your store at great prices"
+            "description": "Buy food for your store at great prices",
+            "email": "santamonica@monica.com"
         },
 
         {
@@ -19,7 +20,8 @@
             "image": "images/castillo.jpg",
             "membership": "Golden",
             "join": "8 years",
-            "description": "Leaders of the textile field for years" 
+            "description": "Leaders of the textile field for years",
+            "email":  "castillo@contact.com"
         },
 
         {
@@ -30,7 +32,8 @@
             "image": "images/cima.jpg",
             "membership": "Golden",
             "join": "3 years",
-            "description": "If there's something you are looking for this is the place"
+            "description": "If there's something you are looking for this is the place",
+            "email": "cima@cima.com"
         },
 
         {
@@ -41,7 +44,8 @@
             "image": "images/cinex.jpg",
             "membership": "Silver",
             "join": "9 months",
-            "description": "You'r cinema for creating good memories"
+            "description": "You'r cinema for creating good memories",
+            "email": "cinex@cima.com"
         },
 
         {
@@ -52,7 +56,8 @@
             "image": "images/eldorado.jpg",
             "membership": "Golden",
             "join": "4 years",
-            "description": "We have been in the market for years, with the best stores, enjoy it!"
+            "description": "We have been in the market for years, with the best stores, enjoy it!",
+            "email": "eldorado@dorado.com"
         },
 
         {
@@ -63,7 +68,8 @@
             "image": "images/ivoo.jpg",
             "membership": "NP",
             "join": "3 months",
-            "description": "The best tech products out there you'll find them here"
+            "description": "The best tech products out there you'll find them here",
+            "email": "ivoo@info.com"
         },
 
         {
@@ -74,7 +80,8 @@
             "image": "images/king-pastel.jpg",
             "membership": "Bronze",
             "join": "5 months",
-            "description": "You will test the best pastels of the country"
+            "description": "You will test the best pastels of the country",
+            "email": "king@pastel.com"
         },
 
         {
@@ -85,7 +92,8 @@
             "image": "images/mango-bajito.jpg",
             "membership": "Bronze",
             "join": "2 years",
-            "description": "We have all you need for your parties, events, bakery, kitchen, etc."
+            "description": "We have all you need for your parties, events, bakery, kitchen, etc.",
+            "email": "mangobajito@bajito.com"
         },
 
         {
@@ -96,7 +104,8 @@
             "image": "images/mcdonalds.jpg",
             "membership": "Golden",
             "join": "5 years",
-            "description": "Come and enjoy with your family, have a great time"
+            "description": "Come and enjoy with your family, have a great time",
+            "email": "mcdonals@donalds.com"
         },
 
         {
@@ -107,7 +116,8 @@
             "image": "images/multimax.jpg",
             "membership": "Silver",
             "join": "8 months",
-            "description": "Wide variety of home appliances"
+            "description": "Wide variety of home appliances",
+            "email": "multimax@max.com"
         },
 
         {
@@ -118,7 +128,8 @@
             "image": "images/smartfix.jpg",
             "membership": "Silver",
             "join": "10 months",
-            "description": "Cutting edge technology, great products, high tech"
+            "description": "Cutting edge technology, great products, high tech",
+            "email": "smartfix@fix.com"
         },
 
         {
@@ -129,7 +140,8 @@
             "image": "images/traki.jpg",
             "membership": "Golden",
             "join": "8 years",
-            "description": "Clothing for all the ages and sizes you'll find what you need at a right price"
+            "description": "Clothing for all the ages and sizes you'll find what you need at a right price",
+            "email": "traki@traki.com"
         }
 
 

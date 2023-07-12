@@ -16,24 +16,62 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
+
+const baseURL = 'https://jesuscontreras26.github.io/wdd230/chamber/';
+const linksURL = 'https://jesuscontreras26.github.io/wdd230/chamber/data/members.json';
+spotlights = [`<h4>The best products for your constructions</h4>
+<a href="">hello@saforti.com</a>
+<a href="">+111-1111-1111</a>
+<a href="">Website</a>`,
+
+`<h4>The best products for your daily diet</h4>
+<a href="">contact@garzon.com</a>
+<a href="">+555-5555-5555</a>
+<a href="">Website</a>`,
+
+`<h4>You will have an unforgettable night</h4>
+<a href="">build@eurobuilding.com</a>
+<a href="">+888-8888-8888</a>
+<a href="">Website</a>`
+
+ ];
+
+async function fetchLinks(){
+    try {
+        const response = await fetch(linksURL);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+			saveData(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+fetchLinks();
+
+function saveData(members){
+	let i = 0;
+	while (i != 3) {
+		let randomNumber = Math.floor(Math.random() * members.directory.length);
+		if (members.directory[randomNumber].membership === "Golden" || members.directory[randomNumber].membership === "Silver") {
+			spotlights[i] = `<h4>${members.directory[randomNumber].description}</h4>
+							 <a href="">hello@saforti.com</a>
+							 <a href="">+111-1111-1111</a>
+							 <a href="">Website</a>`
+		} else {
+			
+		}
+	}
+}
+
+
+
 spotlightTitles = document.querySelectorAll('.spotlightTitles');
 
-spotlights = [`<h4>The best products for your constructions</h4>
-			   <a href="">hello@saforti.com</a>
-			   <a href="">+111-1111-1111</a>
-			   <a href="">Website</a>`,
-
-			   `<h4>The best products for your daily diet</h4>
-			   <a href="">contact@garzon.com</a>
-			   <a href="">+555-5555-5555</a>
-			   <a href="">Website</a>`,
-
-			   `<h4>You will have an unforgettable night</h4>
-			   <a href="">build@eurobuilding.com</a>
-			   <a href="">+888-8888-8888</a>
-			   <a href="">Website</a>`
-
-			];
 
 let control = true;
 
