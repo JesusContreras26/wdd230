@@ -610,3 +610,39 @@ form label.top input:required:valid{
 .list section:nth-child(even) a{
     color: #00154b;
 }
+
+/*************WeatherGadget***************/
+
+#today-weather{
+    padding-top: 1rem;
+}
+
+#today-weather figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#today-weather #weather-icon-today, #today-weather #current-temp, #today-weather #todayCaption{
+    padding: 0.25rem;
+}
+
+#today-weather h5{
+    text-align: center;
+}
+
+#forecast-weather figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#forecast-weather #weather-icon-forecast, #forecast-weather #forecast-temp, #forecast-weather #forecastCaption{
+    padding: 0.25rem;
+}
+
+#forecast-weather h5{
+
+    text-align: center;
+}
+

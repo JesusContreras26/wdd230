@@ -7,7 +7,8 @@
             "url": "https://santamonica.com/",
             "image": "images/santa-monica.jpg",
             "membership": "Bronze",
-            "join": "1 year"
+            "join": "1 year",
+            "description": "Buy food for your store at great prices"
         },
 
         {
@@ -17,7 +18,8 @@
             "url": "https://elcastillo.com/",
             "image": "images/castillo.jpg",
             "membership": "Golden",
-            "join": "8 years"
+            "join": "8 years",
+            "description": "Leaders of the textile field for years" 
         },
 
         {
@@ -27,7 +29,8 @@
             "url": "https://cima.com/",
             "image": "images/cima.jpg",
             "membership": "Golden",
-            "join": "3 years"
+            "join": "3 years",
+            "description": "If there's something you are looking for this is the place"
         },
 
         {
@@ -37,7 +40,8 @@
             "url": "https://cinex.com/",
             "image": "images/cinex.jpg",
             "membership": "Silver",
-            "join": "9 months"
+            "join": "9 months",
+            "description": "You'r cinema for creating good memories"
         },
 
         {
@@ -47,7 +51,8 @@
             "url": "https://eldorado.com/",
             "image": "images/eldorado.jpg",
             "membership": "Golden",
-            "join": "4 years"
+            "join": "4 years",
+            "description": "We have been in the market for years, with the best stores, enjoy it!"
         },
 
         {
@@ -57,7 +62,8 @@
             "url": "https://ivoo.com/",
             "image": "images/ivoo.jpg",
             "membership": "NP",
-            "join": "3 months"
+            "join": "3 months",
+            "description": "The best tech products out there you'll find them here"
         },
 
         {
@@ -67,7 +73,8 @@
             "url": "https://kingpastel.com/",
             "image": "images/king-pastel.jpg",
             "membership": "Bronze",
-            "join": "5 months"
+            "join": "5 months",
+            "description": "You will test the best pastels of the country"
         },
 
         {
@@ -77,7 +84,8 @@
             "url": "https://mangobajito.com/",
             "image": "images/mango-bajito.jpg",
             "membership": "Bronze",
-            "join": "2 years"
+            "join": "2 years",
+            "description": "We have all you need for your parties, events, bakery, kitchen, etc."
         },
 
         {
@@ -87,7 +95,8 @@
             "url": "https://www.mcdonalds.com/",
             "image": "images/mcdonalds.jpg",
             "membership": "Golden",
-            "join": "5 years"
+            "join": "5 years",
+            "description": "Come and enjoy with your family, have a great time"
         },
 
         {
@@ -97,7 +106,8 @@
             "url": "https://multimax.com/",
             "image": "images/multimax.jpg",
             "membership": "Silver",
-            "join": "8 months"
+            "join": "8 months",
+            "description": "Wide variety of home appliances"
         },
 
         {
@@ -107,7 +117,8 @@
             "url": "https://smartfix.com/",
             "image": "images/smartfix.jpg",
             "membership": "Silver",
-            "join": "10 months"
+            "join": "10 months",
+            "description": "Cutting edge technology, great products, high tech"
         },
 
         {
@@ -117,7 +128,8 @@
             "url": "https://traki.com/",
             "image": "images/traki.jpg",
             "membership": "Golden",
-            "join": "8 years"
+            "join": "8 years",
+            "description": "Clothing for all the ages and sizes you'll find what you need at a right price"
         }
 
 
