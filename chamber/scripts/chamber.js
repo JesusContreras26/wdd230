@@ -16,32 +16,18 @@ hamButton.addEventListener('click', () => {
 	hamButton.classList.toggle('open');
 });
 
+/**********************SpotLights************************/
 
 const baseURL = 'https://jesuscontreras26.github.io/wdd230/chamber/';
 const linksURL = 'https://jesuscontreras26.github.io/wdd230/chamber/data/members.json';
-spotlights = [`<h4>The best products for your constructions</h4>
-<a href="">hello@saforti.com</a>
-<a href="">+111-1111-1111</a>
-<a href="">Website</a>`,
-
-`<h4>The best products for your daily diet</h4>
-<a href="">contact@garzon.com</a>
-<a href="">+555-5555-5555</a>
-<a href="">Website</a>`,
-
-`<h4>You will have an unforgettable night</h4>
-<a href="">build@eurobuilding.com</a>
-<a href="">+888-8888-8888</a>
-<a href="">Website</a>`
-
- ];
+let spotlights = [];
+spotlightTitles = document.querySelectorAll('.spotlightTitles');
 
 async function fetchLinks(){
     try {
         const response = await fetch(linksURL);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
 			saveData(data);
         } else {
             throw Error(await response.text());
@@ -55,22 +41,23 @@ fetchLinks();
 
 function saveData(members){
 	let i = 0;
+	let directory = members.directory;
+	console.log(directory);
 	while (i != 3) {
-		let randomNumber = Math.floor(Math.random() * members.directory.length);
-		if (members.directory[randomNumber].membership === "Golden" || members.directory[randomNumber].membership === "Silver") {
-			spotlights[i] = `<h4>${members.directory[randomNumber].description}</h4>
-							 <a href="">hello@saforti.com</a>
-							 <a href="">+111-1111-1111</a>
-							 <a href="">Website</a>`
-		} else {
-			
-		}
+		let randomNumber = Math.floor(Math.random() * directory.length);
+		if (directory[randomNumber].membership === "Golden" || directory[randomNumber].membership === "Silver") {
+			spotlights[i] = `<h4>${directory[randomNumber].description}</h4>
+							 <a href="">${directory[randomNumber].email}</a>
+							 <a href="">${directory[randomNumber].phone}</a>
+							 <a href="">${directory[randomNumber].url}</a>`;
+			spotlightTitles[i].textContent = directory[randomNumber].name
+			directory.splice(randomNumber, 1);
+			i++;
+		} 
 	}
+
+	console.log(spotlights);
 }
-
-
-
-spotlightTitles = document.querySelectorAll('.spotlightTitles');
 
 
 let control = true;
@@ -82,10 +69,7 @@ spotlightTitles[0].addEventListener('click', ()=>{
 		document.querySelector('#spotlightTwo').classList.remove('spotlightP')
 		document.querySelector('#spotlightTwo').textContent = '';
 		document.querySelector('#spotlightOne').classList.toggle('spotlightP');
-		document.querySelector('#spotlightOne').innerHTML = `<h4>The best products for your constructions</h4>
-															 <a href="">hello@saforti.com</a>
-															 <a href="">+111-1111-1111</a>
-															 <a href="">Website</a>`;
+		document.querySelector('#spotlightOne').innerHTML = spotlights[0];
 		control = false;
 	}else{
 		document.querySelector('#spotlightOne').classList.remove('spotlightP')
@@ -102,10 +86,7 @@ spotlightTitles[1].addEventListener('click', ()=>{
 		document.querySelector('#spotlightThree').classList.remove('spotlightP')
 		document.querySelector('#spotlightThree').innerHTML = ''
 		document.querySelector('#spotlightTwo').classList.toggle('spotlightP');
-		document.querySelector('#spotlightTwo').innerHTML =`<h4>The best products for your daily diet</h4>
-															<a href="">contact@garzon.com</a>
-															<a href="">+555-5555-5555</a>
-															<a href="">Website</a>`;
+		document.querySelector('#spotlightTwo').innerHTML = spotlights[1];
 		control = false;
 	}else{
 		document.querySelector('#spotlightTwo').classList.remove('spotlightP')
@@ -122,10 +103,7 @@ spotlightTitles[2].addEventListener('click', ()=>{
 		document.querySelector('#spotlightTwo').classList.remove('spotlightP')
 		document.querySelector('#spotlightTwo').textContent = '';
 		document.querySelector('#spotlightThree').classList.toggle('spotlightP');
-		document.querySelector('#spotlightThree').innerHTML =`<h4>You will have an unforgettable night</h4>
-															<a href="">build@eurobuilding.com</a>
-															<a href="">+888-8888-8888</a>
-															<a href="">Website</a>`;
+		document.querySelector('#spotlightThree').innerHTML = spotlights[2];
 		control = false;
 	}else{
 		document.querySelector('#spotlightThree').classList.remove('spotlightP')
