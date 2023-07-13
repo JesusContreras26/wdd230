@@ -84,7 +84,6 @@ if (numVisits === 0){
     localStorage.setItem('dayLastVisit', Date.now());
 } else if(dateOfVisit - Number(localStorage.getItem('dayLastVisit')) >= 86400000){
     let days = Math.ceil((dateOfVisit - (Number(localStorage.getItem('dayLastVisit'))))/86400000);
-    console.log(days);
     displayMessage.textContent = `You last visited ${days} days ago.`;
     localStorage.setItem('dayLastVisit', dateOfVisit);
 } else if(dateOfVisit - Number(localStorage.getItem('dayLastVisit')) < 86400000){
