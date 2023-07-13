@@ -23,7 +23,7 @@ const linksURL = 'https://jesuscontreras26.github.io/wdd230/chamber/data/members
 let spotlights = [];
 spotlightTitles = document.querySelectorAll('.spotlightTitles');
 
-async function fetchLinks(){
+async function fetchDirectory(){
     try {
         const response = await fetch(linksURL);
         if (response.ok) {
@@ -37,12 +37,11 @@ async function fetchLinks(){
     }
 }
 
-fetchLinks();
+fetchDirectory();
 
 function saveData(members){
 	let i = 0;
 	let directory = members.directory;
-	console.log(directory);
 	while (i != 3) {
 		let randomNumber = Math.floor(Math.random() * directory.length);
 		if (directory[randomNumber].membership === "Golden" || directory[randomNumber].membership === "Silver") {
@@ -55,8 +54,6 @@ function saveData(members){
 			i++;
 		} 
 	}
-
-	console.log(spotlights);
 }
 
 
@@ -163,7 +160,6 @@ async function apiFetchForecast(){
         const response = await fetch(forecastUrl);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
 			displayResultsFore(data);
         }else{
             throw Error(await response.text());
