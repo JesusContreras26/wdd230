@@ -1,8 +1,8 @@
-todaysDate = new Date(document.lastModified);
-dayName = todaysDate.getDate();
-monthName = todaysDate.getMonth() + 1;
-year = todaysDate.getFullYear();
-time = todaysDate.toLocaleTimeString('it-IT');
+let DateModified = new Date(document.lastModified);
+let dayName = DateModified.getDate();
+let monthName = DateModified.getMonth() + 1;
+let year = DateModified.getFullYear();
+let time = DateModified.toLocaleTimeString('it-IT');
 document.querySelector('#year').textContent = `${year} Barinas Chamber`;
 document.querySelector('#lastModified').textContent = `Last Modification: ${dayName}/${monthName}/${year} ${time}`;
 
@@ -182,3 +182,22 @@ function displayResultsFore(data){
 
 
 apiFetchForecast();
+
+/***************************Banner*****************************/
+const banner = document.querySelector(".banner");
+const bannerButton = document.querySelector(".banner-button");
+const todayDate = new Date();
+const todayDay = todayDate.getDay();
+
+console.log(todayDay);
+
+function bannerDisplay(){
+	if (todayDay === 1 | todayDay === 2 | todayDay === 3){
+		banner.style.display = "block";
+		bannerButton.addEventListener('click', ()=>{
+			banner.style.display = "none";
+		});
+	}
+}
+
+bannerDisplay()

@@ -642,7 +642,31 @@ form label.top input:required:valid{
 }
 
 #forecast-weather h5{
-
     text-align: center;
+}
+
+/***********Banner*************/
+
+.banner{
+    background: #00154b;
+    display: none;
+}
+
+.banner-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    color: #fff;
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.banner-text{
+    text-align: center;
+}
+
+.banner-button{
+    margin-left: 1rem;
+    cursor: pointer;
 }
 

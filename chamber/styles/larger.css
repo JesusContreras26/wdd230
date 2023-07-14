@@ -295,7 +295,16 @@
         padding-right: 1rem;
         padding-left: 3rem;
     }
-}
+    
+    /****************Banner*****************/
 
+    .banner-content{
+        font-size: 1.2rem;
+    }
+
+    .banner-button{
+        margin-left: 2rem;   
+    }
+}
 
 
