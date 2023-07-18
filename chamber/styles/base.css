@@ -73,6 +73,12 @@ ul{
     width: 1.5rem;
     height: auto;
 }
+
+#logoSection{
+    text-align: center;
+    font-size: 0.7rem;
+}
+
 a{
     text-decoration: none;
 }
