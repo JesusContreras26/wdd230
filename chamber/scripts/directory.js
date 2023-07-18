@@ -25,7 +25,6 @@ async function fetchLinks(){
         const response = await fetch(linksURL);
         if (response.ok) {
             const data = await response.json();
-            console.log(data);
             displayCards(data);
         } else {
             throw Error(await response.text());

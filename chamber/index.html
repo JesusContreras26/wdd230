@@ -52,7 +52,10 @@
 
     <div id="hero">
         <button id="enjoyUs">Join the Chamber</button>
-        <img id="heroImage" src="images/barinas-hero.jpg" alt="hero image">
+        <picture id="heroImage">
+            <source srcset="images/barinas-hero-small.webp" media="(max-width: 500px)">
+            <img src="images/barinas-hero-large.webp" alt="barinas hero image" loading="lazy" width="1600" height="600">
+        </picture>
     </div>
     <main>
         <div class="banner">

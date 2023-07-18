@@ -21,7 +21,7 @@ hamButton.addEventListener('click', () => {
 const baseURL = 'https://jesuscontreras26.github.io/wdd230/chamber/';
 const linksURL = 'https://jesuscontreras26.github.io/wdd230/chamber/data/members.json';
 let spotlights = [];
-spotlightTitles = document.querySelectorAll('.spotlightTitles');
+let spotlightTitles = document.querySelectorAll('.spotlightTitles');
 
 async function fetchDirectory(){
     try {
@@ -189,7 +189,6 @@ const bannerButton = document.querySelector(".banner-button");
 const todayDate = new Date();
 const todayDay = todayDate.getDay();
 
-console.log(todayDay);
 
 function bannerDisplay(){
 	if (todayDay === 1 | todayDay === 2 | todayDay === 3){
