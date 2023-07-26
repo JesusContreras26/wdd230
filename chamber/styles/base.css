@@ -56,6 +56,10 @@ ul{
     content: "☰";
 }
 
+#displayMenu.open::before{
+    content: "✖";
+}
+
 .open li {
 	display: block;
 	width: 100%;
